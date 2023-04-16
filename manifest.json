@@ -1,0 +1,22 @@
+{
+    "name": "CF Font",
+    "version": "1.0.0",
+    "description": "Change Font Style in CodeForces Custom Editor",
+    "manifest_version": 3,
+    "author": "Gautom Agarwal",
+    "action": {
+        "default_popup": "index.html",
+        "default_title": "CF Font"
+    },
+    "content_scripts": [
+        {
+            "js": [
+                "script.js"
+            ],
+            "matches": [
+                "https://codeforces.com/*",
+                "https://codeforc.es/*"
+            ]
+        }
+    ]
+}
