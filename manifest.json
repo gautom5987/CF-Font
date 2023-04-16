@@ -18,5 +18,9 @@
                 "https://codeforc.es/*"
             ]
         }
+    ],
+    "permissions": [
+        "scripting",
+        "activeTab"
     ]
 }
