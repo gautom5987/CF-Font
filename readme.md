@@ -13,3 +13,9 @@
 4. Enable Developer Mode.
 5. Click on load unpacked and select our unzipped folder.
 6. The extension will be installed now, pin it for best experience.
+
+**Demo**
+
+<div align="center">
+  <img src="assets/cf-font-demo.gif"/>
+</div>
