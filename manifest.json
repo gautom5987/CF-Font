@@ -5,9 +5,9 @@
     "manifest_version": 3,
     "author": "Gautom Agarwal",
     "action": {
-        "default_popup": "index.html",
+        "default_popup": "popup/popup.html",
         "default_title": "CF Font",
-        "default_icon": "icon.png"
+        "default_icon": "assets/icon.png"
     },
     "permissions": [
         "scripting",
