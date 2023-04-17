@@ -1,6 +1,6 @@
 <div align="center">
   <img src="assets/icon.png" width="75" height="75"/>
-  <h1 align="center">CF Font</h1>  
+  <h2 align="center">CF Font</h2>  
 </div>
 
 *CF Font is a google chrome extension to manage font size in codeforces custom editor.*
