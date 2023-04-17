@@ -6,19 +6,9 @@
     "author": "Gautom Agarwal",
     "action": {
         "default_popup": "index.html",
-        "default_title": "CF Font"
+        "default_title": "CF Font",
+        "default_icon": "icon.png"
     },
-    "content_scripts": [
-        {
-            "js": [
-                "script.js"
-            ],
-            "matches": [
-                "https://codeforces.com/*",
-                "https://codeforc.es/*"
-            ]
-        }
-    ],
     "permissions": [
         "scripting",
         "activeTab"
