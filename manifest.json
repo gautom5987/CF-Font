@@ -16,12 +16,12 @@
     ],
     "content_scripts": [
         {
-            "js": [
-                "scripts/storage.js"
-            ],
             "matches": [
                 "https://codeforces.com/*",
                 "https://codeforc.es/*"
+            ],
+            "js": [
+                "scripts/storage.js"
             ]
         }
     ]
