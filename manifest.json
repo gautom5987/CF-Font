@@ -1,7 +1,7 @@
 {
     "name": "CF Font",
     "version": "1.0.0",
-    "description": "Change Font Style in CodeForces Custom Editor",
+    "description": "Change Font Size in CodeForces Custom Editor",
     "manifest_version": 3,
     "author": "Gautom Agarwal",
     "action": {
@@ -11,6 +11,18 @@
     },
     "permissions": [
         "scripting",
-        "activeTab"
+        "activeTab",
+        "storage"
+    ],
+    "content_scripts": [
+        {
+            "js": [
+                "scripts/storage.js"
+            ],
+            "matches": [
+                "https://codeforces.com/*",
+                "https://codeforc.es/*"
+            ]
+        }
     ]
 }
