@@ -1,13 +1,12 @@
-<p align="center">
+<div align="center">
   <img src="assets/icon.png" width="75" height="75"/>
-</p>
-
-<h1 align="center">CF Font</h1>
+  <h1 align="center">CF Font</h1>  
+</div>
 
 *CF Font is a google chrome extension to manage font size in codeforces custom editor.*
 
 ### Installation Instructions
-**Google Chrome**
+
 1. Download this repo as a ZIP file from GitHub.
 2. Unzip the file and you should have a folder named `CF-Font-master`.
 3. In Chrome go to the extensions page (`chrome://extensions`).
